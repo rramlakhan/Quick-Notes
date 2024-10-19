@@ -11,4 +11,6 @@
     <string name="sign_up">SIGN UP</string>
     <string name="create_account">Create Account</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="my_notes">My Notes</string>
+    <string name="create">Create</string>
 </resources>
