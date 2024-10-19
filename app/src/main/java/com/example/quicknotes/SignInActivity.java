@@ -52,6 +52,11 @@ public class SignInActivity extends AppCompatActivity {
             finish();
         });
 
+        tvForgotPassword.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplicationContext(), ForgotPassActivity.class);
+            startActivity(intent);
+        });
+
         btnSignIn.setOnClickListener(v -> {
             String email = etTextEmailAddress.getText().toString();
             String password = etTextPassword.getText().toString();

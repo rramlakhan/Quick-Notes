@@ -13,4 +13,6 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="my_notes">My Notes</string>
     <string name="create">Create</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="submit">Submit</string>
 </resources>
