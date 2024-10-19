@@ -11,6 +11,7 @@ sdpAndroid = "1.1.1"
 sspAndroid = "1.1.1"
 googleGmsGoogleServices = "4.4.2"
 firebaseAuth = "23.0.0"
+firebaseDatabase = "21.0.0"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -23,6 +24,7 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
 ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

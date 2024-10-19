@@ -1,7 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Base.Theme.QuickNotes" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
     <style name="Theme.QuickNotes" parent="Base.Theme.QuickNotes" />

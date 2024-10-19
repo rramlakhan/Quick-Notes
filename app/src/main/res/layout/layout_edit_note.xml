@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_note"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heading"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+
+    <EditText
+        android:id="@+id/etTextEditeHeading"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:autofillHints="text"
+        android:inputType="text"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/rounded_background"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/content"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+
+    <EditText
+        android:id="@+id/etTextEditeContent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_280sdp"
+        android:autofillHints="text"
+        android:inputType="textMultiLine"
+        android:lines="15"
+        android:maxLines="40"
+        android:gravity="top|start"
+        android:scrollbars="vertical"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/rounded_background"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btnSaveEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_primary"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"/>
+
+</LinearLayout>
